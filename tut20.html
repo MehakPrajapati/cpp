@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="viewport" content="IE=edge">
+    <meta name="http-equiv" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+margin: 0;
+padding: 0;
+        }
+        body{
+            background-color: rgb(145, 255, 20);
+        }
+        .container{
+            background-color: bisque;
+            border: 3px solid red;
+            /* we can change or set margin or padding */
+            /* number set acc to top right bottom left */ 
+            /*  like this (padding: 40px,40px,33px,44px;) */
+            /* padding-top: 34px; 
+            padding-left: 14px;
+            padding-bottom: 34px;
+            padding-right: 190px; */
+            /* padding:x(top/bottom),y(left/right) */
+            /* same as function on margin */
+            padding: 34px,19px;
+            margin: 14px,19px;
+            border-radius: 23px;
+            width: 233px;
+            height: 200px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>this is my box model</h2>
+        <p id="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet tenetur neque praesentium nesciunt earum </p>
+    </div>
+    <div class="container">
+        <h2>this is my box model</h2>
+        <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet tenetur neque praesentium nesciunt earum </p>
+    </div>
+    <div class="container">
+        <h2>this is my box model</h2>
+        <p id="third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet tenetur neque praesentium nesciunt earum.</p>
+    </div>
+</body>
+</html>
