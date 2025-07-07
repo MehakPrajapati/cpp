@@ -1,0 +1,26 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class patterndemo002 {
+   public patterndemo002() {
+   }
+
+   public static void main(String[] args) {
+      int n = 5;
+      int row = 1;
+      int star = n;
+
+      for(int space = 0; row <= n; space += 2) {
+         for(int j = 1; j <= space; ++j) {
+            System.out.print("  ");
+         }
+
+         for(int i = 1; i <= star; ++i) {
+            System.out.print("* ");
+         }
+
+         System.out.println();
+         ++row;
+         --star;
+      }
+
+   }
+}
